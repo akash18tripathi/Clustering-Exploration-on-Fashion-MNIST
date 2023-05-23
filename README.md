@@ -2,7 +2,10 @@
 
 ## Description
 
-This repository contains a Jupyter Notebook that explores various clustering techniques applied to the Fashion MNIST dataset. The notebook consists of three parts:
+This repository contains a Jupyter Notebook that explores various clustering techniques applied to the Fashion MNIST dataset.
+If you are unable to render Notebook on github, then alternatively,you can view this notebook on [Notebook](https://nbviewer.org/github/akash18tripathi/Clustering-Exploration-on-Fashion-MNIST/blob/main/Clustering%20Exploration.ipynb)
+
+The notebook consists of three parts:
 
 ### Part 1: K-means Clustering
 
@@ -28,7 +31,6 @@ This part focuses on applying K-means clustering to the pixels of an image. Inst
 ## Dataset
 Each image is 28 pixels in height and 28 pixels in width, for a total of 784 pixels in total. Each pixel has a single pixel-value associated with it, indicating the lightness or darkness of that pixel, with higher numbers meaning darker. This pixel-value is an integer between 0 and 255. The training and test data sets have 785 columns. The first column consists of the class labels (see above), and represents the article of clothing. The rest of the columns contain the pixel-values of the associated image. You can check out the dataset here: [Fashion MNIST](https://www.kaggle.com/datasets/zalando-research/fashionmnist)
 
-Few images from dataset:
 ![dataset](artifacts/dataset.png)
 
 ## Concepts
